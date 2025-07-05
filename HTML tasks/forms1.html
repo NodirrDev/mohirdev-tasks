@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Forms
+        </title>
+    </head>
+    <body>
+        <form action="/server.php" method="get">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username"> <br> <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password"> <br> <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"> <br> <br>
+            <label for="yil">Yil</label>
+            <input type="date" id="yil" name="yil"> <br> <br>
+            <label for="student">Student</label>
+            <input type="checkbox" name="student" id="student"> <br> <br>
+            <hr>
+            <label for="erkak">Erkak</label>
+            <input type="radio" name="gender" value="male">
+            <label for="gender">Ayol</label>
+            <input type="radio" name="gender" value="female"> <br> <br>
+            <label for="passport">Passport</label>
+            <input type="file" name="passport" id="passport"> <br> <br>
+            <hr>
+            <label for="tajriba">Tajribangiz</label>
+            <select name="experience" id="tajriba">
+                <option value="0">Tjribam yo'q</option>
+                <option value="1">faqatgina 1 yil</option>
+                <option value="2">1 yildan koproq</option>
+
+            </select> <br> <br>
+            <label for="haqida">Siz haqingizda</label>
+            <textarea name="about" id="haqida" rows="10" cols="40"></textarea> <br> <br>
+            <button type="submit">Register</button>
+            
+        </form>
+    </body>
+</html>

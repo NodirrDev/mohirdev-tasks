@@ -1,0 +1,8 @@
+Visit a TA during their office hours, and ask them their favorite color.
+Then, fill out the following prompts.
+
+Name of the TA you visited: Elif
+That TA's favorite color: Red
+Day of visit: 10/27/2025
+Time of visit (approximate): 12:20
+Online or in-person: in-person

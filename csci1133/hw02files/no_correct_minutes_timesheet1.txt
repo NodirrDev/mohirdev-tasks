@@ -1,0 +1,8 @@
+Ron 405.0
+LeslieAnn 345.0
+Mark 300.0
+Leslie 480.0
+Tom 585.0
+Ann 750.0
+Leslie 705.0
+April 270.0

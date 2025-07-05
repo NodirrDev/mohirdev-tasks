@@ -1,0 +1,13 @@
+Svetlana 6.0
+Maria 1.0
+Shana 25.0
+Rui 12.0
+Gopalan 3.0
+Jaideep 21.0
+Shana 2.0
+Maria 10.0
+Rui 4.0
+Rui 5.0
+Rui 6.0
+Jaideep 4.0
+Stephen 30.0

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Working with images</title>
+        <link rel="stylesheet" href="asosiy.css">
+        <style>
+            .container{
+                padding: 30px;
+            }
+            .form-control{
+                display: block;
+                position: relative;
+                padding-left: 36px;
+                margin-bottom: 10px;
+                cursor: pointer;
+                font-size: 24px;
+            }
+
+            .custom-radio {
+                position: absolute;
+                left: 0;
+                height: 0;
+                height: 24px;
+                width: 24px;
+                background-color: #ddd;
+                border-radius: 50%;
+            }
+
+            
+            .form-control:hover input ~ .custom-radio {
+                background-color: #ccc;
+
+            }
+
+            .form-control input:checked ~ .custom-radio{
+                background-color: darkblue;
+            }
+
+            .custom-radio:after {
+                top: 8px;
+                left: 8px;
+                height: 8px;
+                width: 8px;
+                border-radius: 50%;
+                background-color: white;
+                content: "";
+                position: absolute;
+                display: none;
+            }
+
+            .form-control input:checked ~ .custom-radio:after {
+                display: block;
+            }
+
+            .form-control input {
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+            }
+            
+        </style>
+    </head>
+    <body>
+         <div class="container">
+            <h1>Style berilgan radio tugmalar</h1>
+            <label class="form-control">Radio 1
+                <input type="radio" name="radio" checked="checked">
+                <span class="custom-radio"></span>
+            </label>
+            <label class="form-control">Radio 1
+                <input type="radio" name="radio" value="radio">
+                <span class="custom-radio"></span>
+            </label>
+            <label class="form-control">Radio 1
+                <input type="radio" name="radio" >
+                <span class="custom-radio"></span>
+            </label>
+         </div>   
+    </body>
+</html>

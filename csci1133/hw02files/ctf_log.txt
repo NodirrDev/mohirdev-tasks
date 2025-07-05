@@ -1,0 +1,249 @@
+Last login: Mon Feb  3 12:22:34 on ttys000
+nodirtoshkulov@infra04-wg324 ~ % ls
+Desktop		Downloads	Movies		Pictures	PycharmProjects
+Documents	Library		Music		Public
+nodirtoshkulov@infra04-wg324 ~ % cd Desktop
+nodirtoshkulov@infra04-wg324 Desktop % ls
+IMG_0316.JPG
+Screenshot 2025-01-27 at 11.57.07 AM.png
+Screenshot 2025-01-27 at 7.46.41 PM.png
+Screenshot 2025-01-28 at 1.38.24 PM.png
+csci1133
+hw02files.zip
+nodirtoshkulov@infra04-wg324 Desktop % unzip hw02files.zip -d hw02 
+Archive:  hw02files.zip
+   creating: hw02/hw02files/
+  inflating: hw02/__MACOSX/._hw02files  
+  inflating: hw02/hw02files/ctf.py   
+  inflating: hw02/__MACOSX/hw02files/._ctf.py  
+  inflating: hw02/hw02files/README.md  
+  inflating: hw02/__MACOSX/hw02files/._README.md  
+nodirtoshkulov@infra04-wg324 Desktop % ls
+IMG_0316.JPG
+Screenshot 2025-01-27 at 11.57.07 AM.png
+Screenshot 2025-01-27 at 7.46.41 PM.png
+Screenshot 2025-01-28 at 1.38.24 PM.png
+csci1133
+hw02
+hw02files.zip
+nodirtoshkulov@infra04-wg324 Desktop % cd hw02
+nodirtoshkulov@infra04-wg324 hw02 % ls
+__MACOSX	hw02files
+nodirtoshkulov@infra04-wg324 hw02 % ls
+hw02
+nodirtoshkulov@infra04-wg324 hw02 % cd ..
+nodirtoshkulov@infra04-wg324 Desktop % ls
+IMG_0316.JPG
+Screenshot 2025-01-27 at 11.57.07 AM.png
+Screenshot 2025-01-27 at 7.46.41 PM.png
+Screenshot 2025-01-28 at 1.38.24 PM.png
+Screenshot 2025-02-03 at 1.19.17 PM.png
+csci1133
+homeworks
+hw02files.zip
+nodirtoshkulov@infra04-wg324 Desktop % cd homeworks
+nodirtoshkulov@infra04-wg324 homeworks % ls
+hw02
+nodirtoshkulov@infra04-wg324 homeworks % cd hw02
+nodirtoshkulov@infra04-wg324 hw02 % cd
+nodirtoshkulov@infra04-wg324 ~ % cd Desktop
+nodirtoshkulov@infra04-wg324 Desktop % cd homeworks
+nodirtoshkulov@infra04-wg324 homeworks % cd hw02
+nodirtoshkulov@infra04-wg324 hw02 % ls
+README.md	ctf.py
+nodirtoshkulov@infra04-wg324 hw02 % python3 ctf.py
+Hello, nodirtoshkulov! Welcome to the CSCI1133 Capture The Flag!
+Folder 'flag01' created successfully
+File 'flag01.txt' written successfully
+Enter the code you found: ^CI'm sorry, that flag is not correct
+nodirtoshkulov@infra04-wg324 hw02 % cd
+nodirtoshkulov@infra04-wg324 ~ % ls
+Desktop		Downloads	Movies		Pictures	PycharmProjects
+Documents	Library		Music		Public
+nodirtoshkulov@infra04-wg324 ~ % cd Desktop
+nodirtoshkulov@infra04-wg324 Desktop % cd homeworks
+nodirtoshkulov@infra04-wg324 homeworks % ls
+hw02
+nodirtoshkulov@infra04-wg324 homeworks % cd hw02
+nodirtoshkulov@infra04-wg324 hw02 % ls
+README.md	ctf.py		flag01
+nodirtoshkulov@infra04-wg324 hw02 % cd flag01
+nodirtoshkulov@infra04-wg324 flag01 % ls
+flag01.txt
+nodirtoshkulov@infra04-wg324 flag01 % cat flag01.txt
+626742
+nodirtoshkulov@infra04-wg324 flag01 % cd ..
+nodirtoshkulov@infra04-wg324 hw02 % ls
+README.md	ctf.py		flag01
+nodirtoshkulov@infra04-wg324 hw02 % python3 ctf.py
+Hello, nodirtoshkulov! Welcome to the CSCI1133 Capture The Flag!
+Enter the code you found: 626742
+
+Congratulations! You found flag #1
+Folder 'flag02' created successfully
+
+*** Flag 02 created. ***
+This one is hidden, but it exists! You will need to show hidden files using the ls command.
+nodirtoshkulov@infra04-wg324 hw02 % ls
+README.md	ctf.py		flag01		flag02
+nodirtoshkulov@infra04-wg324 hw02 % cd flag02
+nodirtoshkulov@infra04-wg324 flag02 % cat flag02.txt
+cat: flag02.txt: No such file or directory
+nodirtoshkulov@infra04-wg324 flag02 % ls
+nodirtoshkulov@infra04-wg324 flag02 % ls -la
+total 8
+drwxr-xr-x  3 nodirtoshkulov  staff   96 Feb  3 13:56 .
+drwx------  6 nodirtoshkulov  staff  192 Feb  3 13:56 ..
+-rw-r--r--  1 nodirtoshkulov  staff    7 Feb  3 13:56 .flag02.txt
+nodirtoshkulov@infra04-wg324 flag02 % cat .flag02.txt
+645136
+nodirtoshkulov@infra04-wg324 flag02 % cd ..
+nodirtoshkulov@infra04-wg324 hw02 % ls
+README.md	ctf.py		flag01		flag02
+nodirtoshkulov@infra04-wg324 hw02 % python3 ctf.py
+Hello, nodirtoshkulov! Welcome to the CSCI1133 Capture The Flag!
+Enter the code you found: 645136
+
+Congratulations! You found flag #2
+Folder 'flag03' created successfully
+
+*** You will need to learn how to use the 'find' command to locate flag03.txt
+
+nodirtoshkulov@infra04-wg324 hw02 % ls
+README.md	ctf.py		flag01		flag02		flag03
+nodirtoshkulov@infra04-wg324 hw02 % cd flag03
+nodirtoshkulov@infra04-wg324 flag03 % ls
+a	b	c	d	e
+nodirtoshkulov@infra04-wg324 flag03 % find flag03 -name flag03.txt
+find: flag03: No such file or directory
+nodirtoshkulov@infra04-wg324 flag03 % cd ..
+nodirtoshkulov@infra04-wg324 hw02 % find flag03 -name flag03.txt
+flag03/c/a/e/d/flag03.txt
+nodirtoshkulov@infra04-wg324 hw02 % cd flag03/c/a/e/d/flag03.txt
+cd: not a directory: flag03/c/a/e/d/flag03.txt
+nodirtoshkulov@infra04-wg324 hw02 % ls
+README.md	ctf.py		flag01		flag02		flag03
+nodirtoshkulov@infra04-wg324 hw02 % cd flag03
+nodirtoshkulov@infra04-wg324 flag03 % cd c/a/e/d
+nodirtoshkulov@infra04-wg324 d % ls
+flag03.txt
+nodirtoshkulov@infra04-wg324 d % cat flag03.txt
+114261
+nodirtoshkulov@infra04-wg324 d % cd
+nodirtoshkulov@infra04-wg324 ~ % cd Desktop/homeworks/hw02
+nodirtoshkulov@infra04-wg324 hw02 % ls
+README.md	ctf.py		flag01		flag02		flag03
+nodirtoshkulov@infra04-wg324 hw02 % python3 ctf.py
+Hello, nodirtoshkulov! Welcome to the CSCI1133 Capture The Flag!
+Enter the code you found: 114261
+
+Congratulations! You found flag #3
+Folder 'flag04' created successfully
+
+*** Flag 04 created. ***
+nodirtoshkulov@infra04-wg324 hw02 % ls
+README.md	flag01		flag03
+ctf.py		flag02		flag04
+nodirtoshkulov@infra04-wg324 hw02 % cd flag04
+nodirtoshkulov@infra04-wg324 flag04 % ls -la
+total 8
+drwxr-xr-x  3 nodirtoshkulov  staff   96 Feb  3 14:17 .
+drwx------  8 nodirtoshkulov  staff  256 Feb  3 14:17 ..
+-rw-r--r--  1 nodirtoshkulov  staff  272 Feb  3 14:17 flag04.txt
+nodirtoshkulov@infra04-wg324 flag04 % cat flag04.txt
+Inside the flag04 folder, create a folder called apple.
+Inside the apple folder, create TWO folders called banana1 and banana2.
+Go back to the hw02 folder and run this program (ctf.py)
+It will create a file called flag04.txt in the banana2 folder with your code inside it.%                                                                        nodirtoshkulov@infra04-wg324 flag04 % ls
+flag04.txt
+nodirtoshkulov@infra04-wg324 flag04 % mkdir apple
+nodirtoshkulov@infra04-wg324 flag04 % ls
+apple		flag04.txt
+nodirtoshkulov@infra04-wg324 flag04 % cs apple
+zsh: command not found: cs
+nodirtoshkulov@infra04-wg324 flag04 % cd apple
+nodirtoshkulov@infra04-wg324 apple % mkdir banana1
+nodirtoshkulov@infra04-wg324 apple % mkdir banana2
+nodirtoshkulov@infra04-wg324 apple % ls
+banana1	banana2
+nodirtoshkulov@infra04-wg324 apple % cd ..
+nodirtoshkulov@infra04-wg324 flag04 % cd ..
+nodirtoshkulov@infra04-wg324 hw02 % python3 ctf.py
+Hello, nodirtoshkulov! Welcome to the CSCI1133 Capture The Flag!
+Enter the code you found: wuuw
+I'm sorry, that flag is not correct
+nodirtoshkulov@infra04-wg324 hw02 % ls
+README.md	flag01		flag03
+ctf.py		flag02		flag04
+nodirtoshkulov@infra04-wg324 hw02 % cd flag04/apple/banana2
+nodirtoshkulov@infra04-wg324 banana2 % ls
+flag04.txt
+nodirtoshkulov@infra04-wg324 banana2 % cat flag04.txt
+122195
+nodirtoshkulov@infra04-wg324 banana2 % cd ..
+nodirtoshkulov@infra04-wg324 apple % cd ..
+nodirtoshkulov@infra04-wg324 flag04 % cd ..
+nodirtoshkulov@infra04-wg324 hw02 % python3 ctf.py
+Hello, nodirtoshkulov! Welcome to the CSCI1133 Capture The Flag!
+Enter the code you found: 122195
+
+Congratulations! You found flag #4
+Folder 'flag05' created successfully
+
+*** Flag 05 created. ***
+nodirtoshkulov@infra04-wg324 hw02 % ls
+README.md	flag01		flag03		flag05
+ctf.py		flag02		flag04
+nodirtoshkulov@infra04-wg324 hw02 % cd flag05
+nodirtoshkulov@infra04-wg324 flag05 % ls
+flag05.txt	move_file_here
+nodirtoshkulov@infra04-wg324 flag05 % cat flag05.txt
+Move this file into the subfolder named move_file_here, and then run this program again. It will automatically modify its contents.
+nodirtoshkulov@infra04-wg324 flag05 % cd ..
+nodirtoshkulov@infra04-wg324 hw02 % ls
+README.md	flag01		flag03		flag05
+ctf.py		flag02		flag04
+nodirtoshkulov@infra04-wg324 hw02 % mv flag05/flag05.txt flag05/move_file_here/flag05.txt
+nodirtoshkulov@infra04-wg324 hw02 % ls
+README.md	flag01		flag03		flag05
+ctf.py		flag02		flag04
+nodirtoshkulov@infra04-wg324 hw02 % cd flag05
+nodirtoshkulov@infra04-wg324 flag05 % ls
+move_file_here
+nodirtoshkulov@infra04-wg324 flag05 % ls move_file_here
+flag05.txt
+nodirtoshkulov@infra04-wg324 flag05 % cd ..
+nodirtoshkulov@infra04-wg324 hw02 % python3 ctf.py
+Hello, nodirtoshkulov! Welcome to the CSCI1133 Capture The Flag!
+Enter the code you found: jwns
+I'm sorry, that flag is not correct
+nodirtoshkulov@infra04-wg324 hw02 % cd flag05
+nodirtoshkulov@infra04-wg324 flag05 % ls
+move_file_here
+nodirtoshkulov@infra04-wg324 flag05 % cat move_file_here/flag05.txt
+224396
+nodirtoshkulov@infra04-wg324 flag05 % cd ..
+nodirtoshkulov@infra04-wg324 hw02 % python3 ctf.py
+Hello, nodirtoshkulov! Welcome to the CSCI1133 Capture The Flag!
+Enter the code you found: 224396
+
+Congratulations! You found flag #5
+Folder 'flag06' created successfully
+
+*** Flag 06 created. ***
+nodirtoshkulov@infra04-wg324 hw02 % cd flag06
+nodirtoshkulov@infra04-wg324 flag06 % ls
+flag06.txt
+nodirtoshkulov@infra04-wg324 flag06 % cat flag06.txt
+What is the hostname of this machine? Just the name, there should be no periods.nodirtoshkulov@infra04-wg324 flag06 % hostname
+infra04-wg324.eduroam.wireless.umn.edu
+nodirtoshkulov@infra04-wg324 flag06 % hostname
+Nodirs-MacBook-Air.local
+nodirtoshkulov@infra04-wg324 flag06 % cd ..
+nodirtoshkulov@infra04-wg324 hw02 % python3 ctf.py
+Hello, nodirtoshkulov! Welcome to the CSCI1133 Capture The Flag!
+Enter the code you found: Nodirs-MacBook-Air
+
+Congratulations! You found flag #6
+You have completed the CTF. Follow the instructions in the Homework 02 document to submit your terminal output to Gradescope.
+nodirtoshkulov@infra04-wg324 hw02 % 

@@ -1,0 +1,9 @@
+Ron 6.75
+Leslie 2.25
+Ann 5.75
+Mark 5.0
+Leslie 8.0
+Tom 9.75
+Ann 12.5
+Leslie 11.75
+April 4.5

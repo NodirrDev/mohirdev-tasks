@@ -1,0 +1,13 @@
+Svetlana 360.0
+Maria 60.0
+Shana 1500.0
+Rui 720.0
+Gopalan 180.0
+Jaideep 1260.0
+Shana 120.0
+Maria 600.0
+Rui 240.0
+Rui 300.0
+Rui 360.0
+Jaideep 240.0
+Stephen 1800.0

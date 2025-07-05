@@ -1,0 +1,7 @@
+Abed 16.0
+Abed 4.0
+Britta 1.5
+Troy 3.0
+Annie 18.5
+Britta 26.25
+Jeff 24.0
